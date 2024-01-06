@@ -1,3 +1,9 @@
+use url_shortener;
+
 pub fn main() {
-    println!("Url shortener");
+    let result = url_shortener::start();
+
+    if let Some(err) = result.err() {
+        println!("Error: {}", err)
+    }
 }
