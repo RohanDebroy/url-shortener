@@ -1,4 +1,5 @@
-# First stab at building api with Rust
+# First stab at building an api with Rust
+Just learning rust not a proper api.
 
 ## TODO
 - Fix issue where the view counter is not updating while redirecting.
